@@ -24,7 +24,7 @@ Thread(target=run_flask, daemon=True).start()
 TOKEN = os.environ.get("TOKEN")
 CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY")
 
-ALLOWED_CHANNEL_ID = 123456789  # غيّر هذا لـ ID قناتك
+ALLOWED_CHANNEL_ID = 1513329157935988746 # غيّر هذا لـ ID قناتك
 
 # الأدمن اللي يتمنشنون عند السب
 ADMIN_IDS = [1407727139251290223, 776860475102330940]
